@@ -1,6 +1,6 @@
 services:
   - type: web
     name: kenako-aquatics
-    runtime: static
+    runtime: node
     buildCommand: echo "No build step required"
-    staticPublishPath: .
+    startCommand: node server.js
