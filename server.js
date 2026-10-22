@@ -6,6 +6,10 @@ const files = {
   "/": { file: "index.html", contentType: "text/html; charset=utf-8" },
   "/index.html": { file: "index.html", contentType: "text/html; charset=utf-8" },
   "/styles.css": { file: "styles.css", contentType: "text/css; charset=utf-8" },
+  "/assets/hero-swimmer.jpg": { file: "assets/hero-swimmer.jpg", contentType: "image/jpeg" },
+  "/assets/adult-swimmer.jpg": { file: "assets/adult-swimmer.jpg", contentType: "image/jpeg" },
+  "/assets/training-swimmer.jpg": { file: "assets/training-swimmer.jpg", contentType: "image/jpeg" },
+  "/assets/child-swimmer.jpg": { file: "assets/child-swimmer.jpg", contentType: "image/jpeg" },
 };
 
 const port = Number(process.env.PORT || 10000);
